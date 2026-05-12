@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/VivadoProjects/i2c_ai_verification/i2c_ai_verification.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,uvm,,,,,,
+C:/VivadoProjects/i2c_ai_verification/rtl/i2c_master.v,1778079830,verilog,,,,i2c_master,,uvm,../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/VivadoProjects/i2c_ai_verification/rtl/i2c_slave.v,1778609950,verilog,,C:/VivadoProjects/i2c_ai_verification/rtl/i2c_master.v,,i2c_slave,,uvm,../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/VivadoProjects/i2c_ai_verification/sim/i2c_tb.sv,1778609685,systemVerilog,,,,$unit_i2c_tb_sv;i2c_if;i2c_tb,,uvm,../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

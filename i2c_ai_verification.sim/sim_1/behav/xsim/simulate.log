@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+
+======================================================
+  I2C Vivado Simulation
+  AI Profile : nack_test
+======================================================
+
+[DRV] ADDR=0x7f  READ   DATA=0xaa  t=165000

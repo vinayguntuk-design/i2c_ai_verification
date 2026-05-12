@@ -1,0 +1,242 @@
+[
+  {
+    "run": 0,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "random"
+  },
+  {
+    "run": 1,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "data_alt"
+  },
+  {
+    "run": 2,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "data_alt"
+  },
+  {
+    "run": 3,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "nack_test"
+  },
+  {
+    "run": 4,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "addr_mid"
+  },
+  {
+    "run": 0,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "random"
+  },
+  {
+    "run": 1,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "read_only"
+  },
+  {
+    "run": 2,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "nack_test"
+  },
+  {
+    "run": 3,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "nack_test"
+  },
+  {
+    "run": 4,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "reserved"
+  },
+  {
+    "run": 5,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "reserved"
+  },
+  {
+    "run": 6,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "read_only"
+  },
+  {
+    "run": 7,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "reserved"
+  },
+  {
+    "run": 8,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "addr_low"
+  },
+  {
+    "run": 9,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "reserved"
+  },
+  {
+    "run": 10,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "nack_test"
+  },
+  {
+    "run": 11,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "addr_low"
+  },
+  {
+    "run": 12,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "addr_low"
+  },
+  {
+    "run": 13,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "reserved"
+  },
+  {
+    "run": 14,
+    "pct": 63.6,
+    "bins": 7,
+    "profile": "write_only"
+  },
+  {
+    "run": 0,
+    "pct": 72.7,
+    "bins": 8,
+    "profile": "random"
+  },
+  {
+    "run": 1,
+    "pct": 81.8,
+    "bins": 9,
+    "profile": "data_ones"
+  },
+  {
+    "run": 2,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "data_zero"
+  },
+  {
+    "run": 3,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "nack_test"
+  },
+  {
+    "run": 4,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "nack_test"
+  },
+  {
+    "run": 5,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "addr_mid"
+  },
+  {
+    "run": 6,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "read_only"
+  },
+  {
+    "run": 7,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "read_only"
+  },
+  {
+    "run": 8,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "read_only"
+  },
+  {
+    "run": 9,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "nack_test"
+  },
+  {
+    "run": 10,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "reserved"
+  },
+  {
+    "run": 11,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "read_only"
+  },
+  {
+    "run": 12,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "nack_test"
+  },
+  {
+    "run": 13,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "write_only"
+  },
+  {
+    "run": 14,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "nack_test"
+  },
+  {
+    "run": 15,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "read_only"
+  },
+  {
+    "run": 16,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "random"
+  },
+  {
+    "run": 17,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "random"
+  },
+  {
+    "run": 18,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "nack_test"
+  },
+  {
+    "run": 19,
+    "pct": 90.9,
+    "bins": 10,
+    "profile": "addr_low"
+  }
+]

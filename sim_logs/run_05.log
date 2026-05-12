@@ -1,0 +1,205 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/VivadoProjects/i2c_ai_verification/rtl/i2c_master.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/VivadoProjects/i2c_ai_verification/rtl/i2c_slave.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/VivadoProjects/i2c_ai_verification/sim/i2c_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module i2c_tb
+
+
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe -debug typical -nolog work.i2c_tb -s i2c_tb_snapshot 
+Multi-threading is on. Using 10 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.std
+Compiling package work.$unit_i2c_master_v_4220842907
+Compiling module work.i2c_if_default
+Compiling module work.i2c_master
+Compiling module work.i2c_slave
+Compiling module work.i2c_tb
+Built simulation snapshot i2c_tb_snapshot
+
+
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue May 12 20:04:28 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/i2c_tb_snapshot/xsim_script.tcl
+# xsim {i2c_tb_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+
+======================================================
+  I2C Vivado Simulation
+  AI Profile : addr_mid
+======================================================
+
+[DRV] ADDR=0x3d  READ   DATA=0xc6  t=165000
+[MON] ADDR=0x3d  READ   DATA=0xc6  t=1145000
+[DRV] ADDR=0x39  READ   DATA=0x08  t=1165000
+[SCB] PASS #1  ADDR=0x3d  READ   ACK=1
+[MON] ADDR=0x39  READ   DATA=0x08  t=2185000
+[DRV] ADDR=0x49  WRITE  DATA=0xc1  t=2205000
+[SCB] PASS #2  ADDR=0x39  READ   ACK=1
+[MON] ADDR=0x49  WRITE  DATA=0xc1  t=3945000
+[DRV] ADDR=0x23  READ   DATA=0x79  t=3965000
+[SCB] PASS #3  ADDR=0x49  WRITE  ACK=1
+[MON] ADDR=0x23  READ   DATA=0x79  t=4985000
+[DRV] ADDR=0x37  READ   DATA=0x2f  t=5005000
+[SCB] PASS #4  ADDR=0x23  READ   ACK=1
+[MON] ADDR=0x37  READ   DATA=0x2f  t=6025000
+[DRV] ADDR=0x24  WRITE  DATA=0x87  t=6045000
+[SCB] PASS #5  ADDR=0x37  READ   ACK=1
+[MON] ADDR=0x24  WRITE  DATA=0x87  t=7785000
+[DRV] ADDR=0x43  WRITE  DATA=0xf7  t=7805000
+[SCB] PASS #6  ADDR=0x24  WRITE  ACK=1
+[MON] ADDR=0x43  WRITE  DATA=0xf7  t=9545000
+[DRV] ADDR=0x3f  WRITE  DATA=0x84  t=9565000
+[SCB] PASS #7  ADDR=0x43  WRITE  ACK=1
+[MON] ADDR=0x3f  WRITE  DATA=0x84  t=11305000
+[DRV] ADDR=0x55  READ   DATA=0x2a  t=11325000
+[SCB] PASS #8  ADDR=0x3f  WRITE  ACK=1
+[MON] ADDR=0x55  READ   DATA=0x2a  t=12345000
+[DRV] ADDR=0x59  WRITE  DATA=0xd6  t=12365000
+[SCB] PASS #9  ADDR=0x55  READ   ACK=1
+[MON] ADDR=0x59  WRITE  DATA=0xd6  t=14105000
+[DRV] ADDR=0x49  READ   DATA=0xc2  t=14125000
+[SCB] PASS #10  ADDR=0x59  WRITE  ACK=1
+[MON] ADDR=0x49  READ   DATA=0xc2  t=15145000
+[DRV] ADDR=0x4f  READ   DATA=0x51  t=15165000
+[SCB] PASS #11  ADDR=0x49  READ   ACK=1
+[MON] ADDR=0x4f  READ   DATA=0x51  t=16185000
+[DRV] ADDR=0x3a  WRITE  DATA=0xfc  t=16205000
+[SCB] PASS #12  ADDR=0x4f  READ   ACK=1
+[MON] ADDR=0x3a  WRITE  DATA=0xfc  t=17945000
+[DRV] ADDR=0x4d  READ   DATA=0x22  t=17965000
+[SCB] PASS #13  ADDR=0x3a  WRITE  ACK=1
+[MON] ADDR=0x4d  READ   DATA=0x22  t=18985000
+[DRV] ADDR=0x41  WRITE  DATA=0x90  t=19005000
+[SCB] PASS #14  ADDR=0x4d  READ   ACK=1
+[MON] ADDR=0x41  WRITE  DATA=0x90  t=20745000
+[DRV] ADDR=0x4c  READ   DATA=0x55  t=20765000
+[SCB] PASS #15  ADDR=0x41  WRITE  ACK=1
+[MON] ADDR=0x4c  READ   DATA=0x55  t=21785000
+[DRV] ADDR=0x31  WRITE  DATA=0xdc  t=21805000
+[SCB] PASS #16  ADDR=0x4c  READ   ACK=1
+[MON] ADDR=0x31  WRITE  DATA=0xdc  t=23545000
+[DRV] ADDR=0x39  READ   DATA=0x0b  t=23565000
+[SCB] PASS #17  ADDR=0x31  WRITE  ACK=1
+[MON] ADDR=0x39  READ   DATA=0x0b  t=24585000
+[DRV] ADDR=0x37  READ   DATA=0xa8  t=24605000
+[SCB] PASS #18  ADDR=0x39  READ   ACK=1
+[MON] ADDR=0x37  READ   DATA=0xa8  t=25625000
+[DRV] ADDR=0x38  READ   DATA=0x1b  t=25645000
+[SCB] PASS #19  ADDR=0x37  READ   ACK=1
+[MON] ADDR=0x38  READ   DATA=0x1b  t=26665000
+[DRV] ADDR=0x3a  READ   DATA=0xe0  t=26685000
+[SCB] PASS #20  ADDR=0x38  READ   ACK=1
+[MON] ADDR=0x3a  READ   DATA=0xe0  t=27705000
+[DRV] ADDR=0x56  READ   DATA=0xe2  t=27725000
+[SCB] PASS #21  ADDR=0x3a  READ   ACK=1
+[MON] ADDR=0x56  READ   DATA=0xe2  t=28745000
+[DRV] ADDR=0x5e  READ   DATA=0xc2  t=28765000
+[SCB] PASS #22  ADDR=0x56  READ   ACK=1
+[MON] ADDR=0x5e  READ   DATA=0xc2  t=29785000
+[DRV] ADDR=0x5e  READ   DATA=0x44  t=29805000
+[SCB] PASS #23  ADDR=0x5e  READ   ACK=1
+[MON] ADDR=0x5e  READ   DATA=0x44  t=30825000
+[DRV] ADDR=0x48  READ   DATA=0xb1  t=30845000
+[SCB] PASS #24  ADDR=0x5e  READ   ACK=1
+[MON] ADDR=0x48  READ   DATA=0xb1  t=31865000
+[DRV] ADDR=0x4c  WRITE  DATA=0xa3  t=31885000
+[SCB] PASS #25  ADDR=0x48  READ   ACK=1
+[MON] ADDR=0x4c  WRITE  DATA=0xa3  t=33625000
+[DRV] ADDR=0x5d  READ   DATA=0x3a  t=33645000
+[SCB] PASS #26  ADDR=0x4c  WRITE  ACK=1
+[MON] ADDR=0x5d  READ   DATA=0x3a  t=34665000
+[DRV] ADDR=0x2b  WRITE  DATA=0xbd  t=34685000
+[SCB] PASS #27  ADDR=0x5d  READ   ACK=1
+[MON] ADDR=0x2b  WRITE  DATA=0xbd  t=36425000
+[DRV] ADDR=0x53  READ   DATA=0xf1  t=36445000
+[SCB] PASS #28  ADDR=0x2b  WRITE  ACK=1
+[MON] ADDR=0x53  READ   DATA=0xf1  t=37465000
+[DRV] ADDR=0x35  WRITE  DATA=0xc6  t=37485000
+[SCB] PASS #29  ADDR=0x53  READ   ACK=1
+[MON] ADDR=0x35  WRITE  DATA=0xc6  t=39225000
+[DRV] ADDR=0x45  READ   DATA=0x86  t=39245000
+[SCB] PASS #30  ADDR=0x35  WRITE  ACK=1
+[MON] ADDR=0x45  READ   DATA=0x86  t=40265000
+[DRV] ADDR=0x45  WRITE  DATA=0x83  t=40285000
+[SCB] PASS #31  ADDR=0x45  READ   ACK=1
+[MON] ADDR=0x45  WRITE  DATA=0x83  t=42025000
+[DRV] ADDR=0x23  WRITE  DATA=0x85  t=42045000
+[SCB] PASS #32  ADDR=0x45  WRITE  ACK=1
+[MON] ADDR=0x23  WRITE  DATA=0x85  t=43785000
+[DRV] ADDR=0x36  READ   DATA=0x73  t=43805000
+[SCB] PASS #33  ADDR=0x23  WRITE  ACK=1
+[MON] ADDR=0x36  READ   DATA=0x73  t=44825000
+[DRV] ADDR=0x33  WRITE  DATA=0xc2  t=44845000
+[SCB] PASS #34  ADDR=0x36  READ   ACK=1
+[MON] ADDR=0x33  WRITE  DATA=0xc2  t=46585000
+[DRV] ADDR=0x21  READ   DATA=0xc3  t=46605000
+[SCB] PASS #35  ADDR=0x33  WRITE  ACK=1
+[MON] ADDR=0x21  READ   DATA=0xc3  t=47625000
+[DRV] ADDR=0x4e  WRITE  DATA=0x7e  t=47645000
+[SCB] PASS #36  ADDR=0x21  READ   ACK=1
+[MON] ADDR=0x4e  WRITE  DATA=0x7e  t=49385000
+[DRV] ADDR=0x5b  READ   DATA=0x44  t=49405000
+[SCB] PASS #37  ADDR=0x4e  WRITE  ACK=1
+
+============ SCOREBOARD REPORT ============
+  PASS  : 37
+  FAIL  : 0
+  TOTAL : 37
+  STATUS: ALL TRANSACTIONS PASSED
+===========================================
+
+
+============ COVERAGE REPORT ============
+  Addr Reserved (0x00-07):   0 hits  MISS
+  Addr Low      (0x08-1F):   0 hits  MISS
+  Addr Mid      (0x20-5F):  37 hits   HIT
+  Addr High     (0x60-77):   0 hits  MISS
+  RW Write               :  15 hits   HIT
+  RW Read                :  22 hits   HIT
+  ACK received           :  37 hits   HIT
+  NACK received          :   0 hits  MISS
+  Data = 0x00            :   0 hits  MISS
+  Data = 0xFF            :   0 hits  MISS
+  Data = 0x55 or 0xAA    :   1 hits   HIT
+  ----------------------------------------
+  TOTAL: 45.5% (5/11 bins hit)
+=========================================
+
+=== AI COVERAGE DATA START ===
+[COV] ADDR_RESERVED=0
+[COV] ADDR_LOW=0
+[COV] ADDR_MID=37
+[COV] ADDR_HIGH=0
+[COV] RW_WRITE=15
+[COV] RW_READ=22
+[COV] ACK=37
+[COV] NACK=0
+[COV] DATA_ZERO=0
+[COV] DATA_ONES=0
+[COV] DATA_ALT=1
+[COV] TOTAL_TXN=37
+=== AI COVERAGE DATA END ===
+======================================================
+  Simulation Complete
+======================================================
+$finish called at time : 50145 ns : File "C:/VivadoProjects/i2c_ai_verification/sim/i2c_tb.sv" Line 534
+exit
+INFO: [Common 17-206] Exiting xsim at Tue May 12 20:04:31 2026...
+

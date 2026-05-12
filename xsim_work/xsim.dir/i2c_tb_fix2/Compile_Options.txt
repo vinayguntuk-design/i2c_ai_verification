@@ -1,0 +1,1 @@
+-debug "typical" "work.i2c_tb" -s "i2c_tb_fix2" 

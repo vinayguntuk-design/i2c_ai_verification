@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/VivadoProjects/i2c_ai_verification/rtl/i2c_slave.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_slave
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/VivadoProjects/i2c_ai_verification/rtl/i2c_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/VivadoProjects/i2c_ai_verification/sim/i2c_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/VivadoProjects/i2c_ai_verification/i2c_ai_verification.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
