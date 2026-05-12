@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue May 12 19:50:12 2026
+# Process ID         : 32560
+# Current directory  : C:/VivadoProjects/i2c_ai_verification
+# Command line       : vivado.exe -mode tcl -source C:\VivadoProjects\i2c_ai_verification\scripts\run_full_flow.tcl
+# Log file           : C:/VivadoProjects/i2c_ai_verification/vivado.log
+# Journal file       : C:/VivadoProjects/i2c_ai_verification\vivado.jou
+# Running On         : Jai_Bhawani
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 25067 MB
+# Swap memory        : 25769 MB
+# Total Virtual      : 50836 MB
+# Available Virtual  : 23492 MB
+#-----------------------------------------------------------
+source {C:\VivadoProjects\i2c_ai_verification\scripts\run_full_flow.tcl}
+.\run_ai.bat "C:\AMDDesignTools\2025.2\Vivado\bin"
